@@ -16,7 +16,8 @@
     "webpack": "webpack --mode development",
     "webpack:w": "webpack --mode development --watch",
     "start": "webpack serve --mode development --open",
-    "pretty": "prettier -w ./src/*"
+    "pretty": "prettier -w ./src/*",
+    "tsc": "tsc"
   },
   "author": "",
   "private": true,

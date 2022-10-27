@@ -4,11 +4,11 @@ export interface Product {
   icon: string;
   description?: string;
   validate(): boolean;
+  placeOrder?(id:number): boolean;
 }
 
 // Examples of using a type alias
-type ProductAlias =
-  | string
+type ProductAlias = string
   | number
   | {
       id: number;
